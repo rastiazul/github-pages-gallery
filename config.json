@@ -1,13 +1,13 @@
 {
   "input": "./gallery",
   "output": "./build_output",
-  "title": "Photo Gallery",
+  "title": "Reforestation log",
   "sort-albums-by": "title",
   "sort-media-by": "filename",
   "download-photos": "copy",
   "cleanup": true,
   "theme": "mosaic",
   "theme-style": "./custom.css",
-  "footer": "Copyright Text",
+  "footer": "Creative Commons",
   "usage-stats": false
 }
