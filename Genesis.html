@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo Gallery - Genesis</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <div id="content">
+    
+      <!--
+        Gallery title
+      -->
+      <header style="color: #17baef;">
+        <h1><a href="index.html">Photo Gallery</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+    
+      <nav class="breadcrumbs">
+        <div class="mask"></div>
+    <a class="breadcrumb-item" href="index.html">Home</a>
+          <span class="separator">&gt;</span><a class="breadcrumb-item" href="Genesis.html">Genesis</a>
+      </nav>
+    
+      <!--
+        Main gallery panel
+      -->
+      <section id="content">
+    
+        <!--
+          Nested albums, if any
+        -->
+        <ul id="albums">
+        </ul>
+    
+        <!--
+          All photos and videos
+        -->
+        <ul id="media">
+            
+              <li data-src="media/large/Genesis/49414072_10100791632819002_2694838575169536_n.jpg"
+                  data-sub-html=""
+                  data-download-url="media/original/Genesis/49414072_10100791632819002_2694838575169536_n.jpg"
+                  
+                  data-filename="49414072_10100791632819002_2694838575169536_n.jpg"
+            
+                >
+                <a href="media/original/Genesis/49414072_10100791632819002_2694838575169536_n.jpg">
+                  <img src="media/thumbs/Genesis/49414072_10100791632819002_2694838575169536_n.jpg"
+                       width="120"
+                       height="120"
+                       alt="49414072_10100791632819002_2694838575169536_n.jpg" />
+                </a>
+              </li>        
+              <li data-src="media/large/Genesis/55752319_10100830366057282_1090135005499228160_o.jpg"
+                  data-sub-html=""
+                  data-download-url="media/original/Genesis/55752319_10100830366057282_1090135005499228160_o.jpg"
+                  
+                  data-filename="55752319_10100830366057282_1090135005499228160_o.jpg"
+            
+                >
+                <a href="media/original/Genesis/55752319_10100830366057282_1090135005499228160_o.jpg">
+                  <img src="media/thumbs/Genesis/55752319_10100830366057282_1090135005499228160_o.jpg"
+                       width="120"
+                       height="120"
+                       alt="55752319_10100830366057282_1090135005499228160_o.jpg" />
+                </a>
+              </li>        
+              <li data-src="media/large/Genesis/60346991_10100854751763132_5160255115671633920_n.jpg"
+                  data-sub-html=""
+                  data-download-url="media/original/Genesis/60346991_10100854751763132_5160255115671633920_n.jpg"
+                  
+                  data-filename="60346991_10100854751763132_5160255115671633920_n.jpg"
+            
+                >
+                <a href="media/original/Genesis/60346991_10100854751763132_5160255115671633920_n.jpg">
+                  <img src="media/thumbs/Genesis/60346991_10100854751763132_5160255115671633920_n.jpg"
+                       width="120"
+                       height="120"
+                       alt="60346991_10100854751763132_5160255115671633920_n.jpg" />
+                </a>
+              </li>    </ul>
+    
+      </section>
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>Copyright Text</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
