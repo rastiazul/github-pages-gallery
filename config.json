@@ -9,6 +9,5 @@
   "theme": "mosaic",
   "theme-style": "./custom.css",
   "footer": "Creative Commons",
-  "usage-stats": false,
-  "theme-settings": "./custom.less"
+  "usage-stats": false"
 }
