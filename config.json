@@ -7,7 +7,7 @@
   "download-photos": "copy",
   "cleanup": true,
   "theme": "mosaic",
-  "theme-style": "./custom.css",
+  "theme-style": "./theme/theme.less",
   "footer": "Creative Commons",
   "usage-stats": false
 }
