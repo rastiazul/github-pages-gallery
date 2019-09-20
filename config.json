@@ -9,6 +9,6 @@
   "theme": "mosaic",
   "theme-style": "./custom.css",
   "footer": "Creative Commons",
-  "usage-stats": false
+  "usage-stats": false,
+  "theme-settings": "./config1.json"
 }
-@highlight-color: c38a1e;
