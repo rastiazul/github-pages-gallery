@@ -10,5 +10,5 @@
   "theme-style": "./custom.css",
   "footer": "Creative Commons",
   "usage-stats": false,
-  "theme-settings": "./config1.json"
+  "theme-settings": "./custom.less"
 }
