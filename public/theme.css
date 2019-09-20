@@ -177,4 +177,7 @@ nav.breadcrumbs .separator {
   width: 48px;
 }
 /* Your custom styles goes here */
+.other-custom-item {
+  color: red;
+}
 
